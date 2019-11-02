@@ -1,0 +1,31 @@
+body {
+  color: #1049a9;
+}
+a {
+  color: #6a92d4;
+  text-decoration: none;
+}
+h1 {
+  color: #052c6e;
+}
+h2 {
+  color: #052c6e;
+}
+strong {
+  color: #052c6e;
+}
+img {
+  width: 50%;
+}
+.navtop li {
+  display: inline;
+}
+.navtop a {
+  color: #000364;
+  text-transform: uppercase;
+}
+.menu li {display: inline;
+}
+.menu a {text-transform: uppercase;
+color: darkblue;
+}
