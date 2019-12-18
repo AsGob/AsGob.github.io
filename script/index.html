@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="canvas">
+        <script>
+          window.requestAnimFrame = function() {
+            return (
+              window.requestAnimationFrame ||
+              window.webkitRequestAnimationFrame ||
+              window.mozRequestAnimationFrame ||
+              window.oRequestAnimationFrame ||
+              window.msRequestAnimationFrame ||
+              function(callback) {
+                window.setTimeout(callback);
+              }
+            );
+          };
+
+          function init(elemid) {
+            let canvas = document.getElementById(elemid),
+              c = canvas.getContext("2d"),
+              w = (canvas.width = window.innerWidth),
+              h = (canvas.height = window.innerHeight);
+            c.fillStyle = "rgba(30,30,30,1)";
+            c.fillRect(0, 0, w, h);
+            return { c: c, canvas: canvas };
+          }
+        </script>
+      </canvas>
+  </body>
+</html>
