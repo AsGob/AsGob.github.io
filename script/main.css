@@ -3,4 +3,6 @@ html {
   margin: 0px;
   padding: 0px;
   position: fixed;
-  background: rgb(30,30,30);
+  /* background: linear-gradient(45deg, #eecfba, #c5dde8); */
+  background-image: url(../script/ava7patterns_pattern_1858.png);
+}
