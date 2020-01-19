@@ -1,10 +1,27 @@
-p {
-  color: #0051a6;
+h1 {
+  color: #6c757d;
+}
+body {
+  background-image: url(../img/ava7patterns_pattern_1858.png);
+}
+.gradient {
+  background-color: #3c3643;
+}
+.card {
+  background-color: #5a4f8b;
+}
+.h1 {
+  background-color: #5a4f8b;
+}
+.p1 {
+  background-color: #5a4f8b;
+}
+iframe.nobord {
+  border: 0px;
 }
 h5 {
-  color: #007dff;
+  color: #6c757d;
 }
-
-h1 {
-  color: #02454e;
+.card-text {
+  color: #abb5be;
 }
