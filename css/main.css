@@ -2,6 +2,7 @@ h1 {
   color: #6c757d;
 }
 body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
   background-image: url(../img/ava7patterns_pattern_1858.png);
 }
 .gradient {
@@ -24,4 +25,12 @@ h5 {
 }
 .card-text {
   color: #abb5be;
+}
+.fa-arrow-alt-circle-right {
+  font-size: 30px;
+  color: #5a4f8b;
+}
+.fa-arrow-alt-circle-left {
+  font-size: 30px;
+  color: #5a4f8b;
 }
