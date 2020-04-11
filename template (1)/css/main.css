@@ -1,0 +1,62 @@
+body, * {
+    font-family: "Arial", sans-serif;
+}
+
+.quest {
+    color: #0d0d0d;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.phone a {
+    color: #0d0d0d;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+.phone p, .send p {
+    margin: 0;
+    padding: 0;
+}
+
+.mail a {
+    color: #368c02;
+    font-family: "PT Sans";
+        font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+.send, .quest, .phone {
+    text-align: right;
+}
+
+.mecolor {background-color: #368c02;
+}
+
+.menav-link {text-decoration: underline;
+}
+
+.baner { background-image: url(../img/bg-1.png);
+background-size: cover;
+background-repeat: no-repeat;
+/* height: 790px; */
+}
+.baner h1, .baner h2 { background-color: #368c02;
+ text-transform: uppercase;
+ color: #ffffff;
+ font-weight: bold;
+}
+
+.baner h1 {font-size: 40px;
+
+}
+
+.baner h2 {font-size: 35px;
+}
+.baner p {
+    font-size: 29px;
+    background-color: rgba(255, 255 , 255, 0.6)
+}
+
+
