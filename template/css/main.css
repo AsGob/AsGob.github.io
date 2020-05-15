@@ -1,8 +1,9 @@
+/* общие настройки сайта */
 body,
 * {
   font-family: "Arial", sans-serif;
 }
-
+/* первая секция сайта -------------------------- */
 .quest {
   color: #0d0d0d;
   font-family: "PT Sans";
@@ -34,7 +35,7 @@ body,
   font-weight: 400;
   text-decoration: underline;
 }
-
+/* -------------------------- настройка меню ---------- */
 .mecolor {
   background-color: #368c02;
 }
@@ -42,7 +43,7 @@ body,
 .menav-link {
   text-decoration: underline;
 }
-
+/* ----------------------- продающий экран ------------ */
 .baner {
   background-image: url("../img/bg-1.png");
   background-repeat: no-repeat;
@@ -70,37 +71,94 @@ body,
 .baner p {
   font-size: 29px;
   background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
 }
 
-form {
+.baner form {
   /* outline: 1px solid red; */
   width: 640px;
-  background-color: white;
+  background-color: #fff;
   text-align: center;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding-bottom: 43px;
 }
 
-form input {
+.baner form input {
   height: 56px;
 }
 
-form h3 {
+.baner form h3 {
   font-weight: bold;
   margin-top: 41px;
+  font-size: 30px;
 }
 
-form .row input {
+.baner form .row input {
   margin-top: 41px;
   background-color: #ccc;
   border-radius: 5px;
+  font-style: italic;
 }
 
 #banerTel {
   margin-left: 15px;
 }
 
-form .btn {
+.baner form .btn {
   width: 300px;
   margin: 43px auto 0 auto;
+}
+/* ------------------------ О Нас ---------------- */
+.aboute {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.aboute h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  font-size: 36px;
+}
+
+.aboute .item {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.wrapperImg {
+  width: 101px;
+  height: 101px;
+  margin: 0 auto;
+  border: 2px solid #368c02;
+  border-radius: 50%;
+}
+
+.aboute .card {
+  border: none;
+}
+/* ------------------ Заявка ---------------- */
+.order {
+  background-image: url("../img/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.order_iner {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.order_iner h2 {
+  padding-top: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.order_iner p {
+  font-size: 33px;
 }
