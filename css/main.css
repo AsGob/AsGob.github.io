@@ -34,3 +34,12 @@ h5 {
   font-size: 30px;
   color: #5a4f8b;
 }
+@media (max-width: 768px) {
+  iframe {
+    display: none;
+  }
+}
+.name {
+  background-color: #4d4768;
+  color: #6c757d;
+}
