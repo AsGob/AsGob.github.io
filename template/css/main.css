@@ -161,4 +161,67 @@ body,
 
 .order_iner p {
   font-size: 33px;
+  margin: 40px auto;
+}
+
+.order_iner input {
+  width: 100%;
+  height: 56px;
+  margin: 10px 0;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  padding-left: 25px;
+  font-style: italic;
+}
+
+.order_iner .submit_btn2 {
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.order_iner input:focus {
+  outline: none;
+}
+
+.wrapper_order {
+  margin: 0 auto;
+}
+
+/* --------------------------- count ------------------ */
+
+.count {
+  height: 120px;
+  background-image: url("../img/fonCount.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.count p {
+  line-height: 120px;
+}
+
+.count .iner {
+  background-image: url("../img/poligon.png");
+  background-repeat: no-repeat;
+  background-position: 0 28px;
+  color: #464646;
+  display: inline-block;
+  width: 46px;
+}
+/* --------------------------- set ------------------ */
+
+.set {
+  text-align: center;
+  background-image: url("../img/fon6.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.set ul li {
+  list-style-image: url("../img/christmas3.png");
 }

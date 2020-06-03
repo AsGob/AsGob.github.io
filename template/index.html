@@ -17,9 +17,11 @@
     />
     <!-- me css -->
     <link rel="stylesheet" href="css/main.css" />
-    <head>
-      <link rel="shortcut icon" href="img/AshTree.ico" type="image/x-icon" />
-    </head>
+
+    <!-- add favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
     <title>
       Искусственные елки, Живые елки, Елочки из конфет, Украшения для елок
     </title>
@@ -207,21 +209,93 @@
         <h2>Закажите до 10 ноября</h2>
         <p>на сумму от 100 000 рублей и получите дополнительную скидку 15%</p>
         <p>В декабре скидка 5%</p>
-        <form action="user2.php" method="POST" name="f_order">
-          <input
-            type="text"
-            name="orderText"
-            id="orderText"
-            placeholder="Ваше имя"
-          />
-          <input
-            type="tel"
-            name="orderTel"
-            id="orderTel"
-            placeholder="Ваш телефон"
-          />
-          <input type="submit" value="оставить заявку" class="btn btn-danger" />
-        </form>
+        <div class="wrapper_order col-8">
+          <form action="user2.php" method="POST" name="f_order">
+            <input
+              type="text"
+              name="orderText"
+              id="orderText"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              name="orderTel"
+              id="orderTel"
+              placeholder="Ваш телефон"
+            />
+            <input
+              type="submit"
+              value="ОСТАВИТЬ ЗАЯВКУ"
+              class="btn btn-success submit_btn2"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------- start count --------------------------- -->
+    <div class="container-fluid count">
+      <p>
+        У нас уже заказали: <span class="iner inerCount1 mr-2">1</span
+        ><span class="iner inerCount2">5</span> человек
+      </p>
+    </div>
+    <!-- --------------------------- start set --------------------------- -->
+    <div class="container-fluid set">
+      <div class="container">
+        <h2>Наши эффективные наборы</h2>
+        <p>
+          Мы разработали для Вас готовые наборы на основе статистики наших
+          клиентов
+        </p>
+        <div class="row">
+          <div class="card item1 col-md-6">
+            <div class="row">
+              <img
+                src="img/ogni_elki_novogodnij.jpeg"
+                class="card-img-top col-6"
+                alt="..."
+              />
+              <ul class="card-img-top col-6">
+                <li>40 см. - 100 шт.</li>
+                <li>80 см. - 50 шт.</li>
+                <li>1500 см. - 30 шт.</li>
+                <li>2000 см. - 50 шт.</li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+          <div class="card item2 col-md-6">
+            <div class="row">
+              <img
+                src="img/ogni_elki_novogodnij.jpeg"
+                class="card-img-top col-6"
+                alt="..."
+              />
+              <ul class="card-img-top col-6">
+                <li>40 см. - 100 шт.</li>
+                <li>80 см. - 50 шт.</li>
+                <li>1500 см. - 30 шт.</li>
+                <li>2000 см. - 50 шт.</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Optional JavaScript -->
